@@ -2,6 +2,21 @@
 
 This repository contains code for building an MLOPs pipeline for predicting hotel reservation cancellations using binary classification. The pipeline consists of preprocessing, model training, and prediction stages.
 
+## Repository Structure
+
+The repository has the following structure:
+
+```
+├── Model Store/               # Directory for storing trained models
+├── Prediction Store/          # Directory for storing prediction outputs
+├── data.csv                   # Example input data file
+├── preprocessing_module.py    # Preprocessing module
+├── training_module.py         # Training module
+├── prediction_module.py       # Prediction module
+├── pipeline_module.py         # Training and prediction pipeline module
+└── README.md                  # Project README file
+```
+
 ## Abstract
 
 Binary classification is a fundamental problem in data science and machine learning. The objective of this project was to build an MLOPs pipeline for a model that predicts hotel reservation cancellations.
@@ -43,20 +58,5 @@ The pipeline includes bonus features to provide flexibility to data scientists. 
 - Arbitrary set of features can be passed into the training and prediction jobs.
 - % threshold increase for model promotion can be parameterized.
 - Evaluation metric used for model evaluation can be parameterized.
-
-## Repository Structure
-
-The repository has the following structure:
-
-```
-├── Model Store/               # Directory for storing trained models
-├── Prediction Store/          # Directory for storing prediction outputs
-├── data.csv                   # Example input data file
-├── preprocessing_module.py    # Preprocessing module
-├── training_module.py         # Training module
-├── prediction_module.py       # Prediction module
-├── pipeline_module.py         # Training and prediction pipeline module
-└── README.md                  # Project README file
-```
 
 ##
